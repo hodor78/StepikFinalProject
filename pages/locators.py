@@ -13,4 +13,7 @@ class ProductPageLocators:
     BASKET_ITEM_NAME = (By.CSS_SELECTOR, ".alert-success:nth-child(1) strong")
     ORIGINAL_ITEM_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
     BASKET_ITEM_PRICE = (By.CSS_SELECTOR, ".alertinner :nth-child(1) strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success:nth-child(1)")
 
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
