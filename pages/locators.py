@@ -17,3 +17,7 @@ class ProductPageLocators:
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    VIEW_BASKET = (By.CSS_SELECTOR, ".btn-group .btn:nth-child(1)")
+    BASKET_ITEMS = (By.CSS_SELECTOR, "#basket_formset")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner>p")
+
