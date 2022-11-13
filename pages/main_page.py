@@ -7,7 +7,4 @@ class MainPage(BasePage):
     def __init__(self, *args, **kwargs):
         super(MainPage, self).__init__(*args, **kwargs)
 
-# the same result will be if to do just like below
 
-# class MainPage(BasePage):
-#     pass
