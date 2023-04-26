@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from .locators import BasePageLocators
 from selenium.webdriver import Remote as RemoteWebDriver
-
+# the last import helps with original WebDriver's methods suggestions after typing "." (find_element(); swith_to() etc.)
 
 class BasePage:
     def __init__(self, browser: RemoteWebDriver, url, timeout=10):
