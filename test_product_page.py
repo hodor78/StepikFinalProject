@@ -43,6 +43,8 @@ def test_guest_can_add_product_to_basket(browser):
     page.open()
     page.add_to_basket()
     page.solve_quiz_and_get_code()
+    page.checking_the_name_of_the_added_item_in_basket()
+    page.checking_the_price_of_the_added_item_in_basket()
 
 def test_guest_confirmation_about_added_item_to_basket_same_name_as_original(browser):
     url = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
